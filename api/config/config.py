@@ -36,7 +36,7 @@ class TestConfig(Config):
     TESTING = True
     SQLALCHEMY_TRACK_MODIFICATION = False
     SQLALCHEMY_ECHO =True
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///'
+    SQLALCHEMY_DATABASE_URI = 'postgres://postgres:piperlead@127.0.0.1:5432/student_db'
 
 
 
